@@ -17,6 +17,7 @@
 		AA9F6C9326FEB3F8001F350D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F6C9226FEB3F8001F350D /* SceneDelegate.swift */; };
 		AA9F6C9A26FEB3FB001F350D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F6C9926FEB3FB001F350D /* Assets.xcassets */; };
 		AA9F6C9D26FEB3FB001F350D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F6C9B26FEB3FB001F350D /* LaunchScreen.storyboard */; };
+		F1CC230E26FED12A0075E84F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC230D26FED12A0075E84F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AA9F6C9926FEB3FB001F350D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9F6C9C26FEB3FB001F350D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9F6C9E26FEB3FB001F350D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CC230D26FED12A0075E84F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				AA9F6C9E26FEB3FB001F350D /* Info.plist */,
 				AA79B4DD26FEC1AC0004DCE5 /* MainController.swift */,
 				AA79B4D326FEC03F0004DCE5 /* MessageController.swift */,
+				F1CC230D26FED12A0075E84F /* LoginViewController.swift */,
 				AA79B4D526FEC0870004DCE5 /* PostController.swift */,
 				AA79B4D726FEC0A90004DCE5 /* NotificationController.swift */,
 				AA79B4D926FEC0C50004DCE5 /* ProfileController.swift */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CC230E26FED12A0075E84F /* LoginViewController.swift in Sources */,
 				AA79B4DE26FEC1AC0004DCE5 /* MainController.swift in Sources */,
 				AA9F6C9126FEB3F8001F350D /* AppDelegate.swift in Sources */,
 				AA79B4DC26FEC1020004DCE5 /* TabController.swift in Sources */,
